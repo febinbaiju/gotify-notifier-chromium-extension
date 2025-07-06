@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Gotify Notifier",
+  "version": "1.0",
+  "permissions": ["notifications", "storage", "clipboardWrite", "alarms"],
+  "host_permissions": ["http://*/*", "https://*/*", "ws://*/*", "wss://*/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
