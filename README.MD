@@ -5,6 +5,7 @@ A Chromium extension that listens for notifications from your self-hosted [Gotif
 ## ✨ Features
 
 * 🖥️ Receive Gotify push notifications in your browser.
+* 🚀 Compatible with Manifest V3
 * 🔔 Native browser notifications for real-time alerts.
 * 📃 Notification content copy-to-clipboard feature.
 * ⚙️ Customizable server URL and client token.
